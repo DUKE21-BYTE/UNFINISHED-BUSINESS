@@ -31,8 +31,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <div className="fixed inset-0 z-[-1] pointer-events-none">
-          <div className="absolute inset-0 bg-[#0a0a0a] opacity-90"></div>
-          <div className="absolute inset-0 bg-[url('/background-constellations.png')] bg-cover bg-center opacity-40 mix-blend-screen"></div>
+          <div className="absolute inset-0 bg-[#0a0a0a] opacity-80"></div>
+          <div className="absolute inset-0 bg-[url('/background-constellations.png')] bg-cover bg-center opacity-60 mix-blend-screen"></div>
         </div>
         <Navbar />
         <main className="flex-1">
